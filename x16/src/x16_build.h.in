@@ -1,0 +1,20 @@
+/*******************************************************************//**
+ *	@file	x16_build.h
+ *
+ *	Build system can set version strings and the like here.
+ *
+ *	@author Alexander Dahl <post@lespocky.de>
+ *	@date   Created: 2012-07-24
+ *
+ *	Copyright 2012 Netz39 e.V.
+ **********************************************************************/
+
+#ifndef _X16_BUILD_H_
+#define _X16_BUILD_H_
+
+#define X16_COPYRIGHT_YEARS	"2012"
+#define X16_VERSION			"@PACKAGE_VERSION@"
+
+#endif	/* _X16_BUILD_H_ */
+
+/* vim: set noet sts=0 ts=4 sw=4 sr: */
