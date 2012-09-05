@@ -155,6 +155,8 @@ int cmd_logo( int aargc, char **aargv ) {
 	fclose( fp_png );
 	gdImageDestroy( im );
 
+	/*	gdImageSetPixel(im,x,y,color)	*/
+
 	(void) puts( "this is senseless o_O" );
 	return X16_ERR_NOT_IMPLEMENTED;
 }
