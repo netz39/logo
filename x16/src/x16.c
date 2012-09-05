@@ -142,23 +142,61 @@ int cmd_help( int argc, char **argv ) {
 }
 
 int cmd_logo( int aargc, char **aargv ) {
-	gdImagePtr	im;
-	FILE		*fp_png;
-	int			black, white;
+	gdImagePtr	im = NULL;
+	FILE		*fp_png = NULL;
+	int			rv = X16_ERR_NONE;
 
-	im = gdImageCreate( 32, 32 );
-	black = gdImageColorAllocate( im, 0, 0, 0 );
-	white = gdImageColorAllocate( im, 255, 255, 255 );
-	gdImageLine( im, 0, 0, 31, 31, white );
-	fp_png = fopen( "test.png", "wb" );
-	gdImagePng( im, fp_png );
-	fclose( fp_png );
-	gdImageDestroy( im );
+	/*	evaluate cmd line arguments	*/
+	switch ( aargc - optind ) {
+	case 1:	/*	no args after command	*/
+		/*	TODO	set defaults	*/
+		if ( verbose_flag )
+			(void) puts( "No colors given, using defaults ..." );
+		break;
+	case 5:
+		/*	TODO	evaluate colors given on cmdline	*/
+		(void) fprintf( stderr, "Not implemented yet!\n" );
+		rv = X16_ERR_NOT_IMPLEMENTED;
+		goto leave_cmd_logo;
+		break;
+	default:
+		(void) fprintf( stderr, "Wrong number of parameters!\n" );
+		rv = X16_ERR_PARAM_COUNT;
+		goto leave_cmd_logo;
+		break;
+	}
 
+	/*	init	*/
+	im = gdImageCreate( 64, 64 );
+	if ( im == NULL ) {
+		(void) fprintf( stderr, "Error creating image!\n" );
+		rv = X16_ERR_LIBGD;
+		goto leave_cmd_logo;
+	} else {
+		if ( debug_flag ) (void) puts( "Created image object ..." );
+	}
+
+	fp_png = fopen( X16_LOGO_FILENAME, "wb" );
+	if ( fp_png == NULL ) {
+		(void) fprintf( stderr, "Error opening file %s: %s\n",
+				X16_LOGO_FILENAME, strerror( errno ) );
+		rv = X16_ERR_SYSTEM;
+		goto leave_cmd_logo;
+	} else {
+		if ( verbose_flag ) (void) puts( "Opened file ..." );
+	}
+
+	/*	set pixel	*/
 	/*	gdImageSetPixel(im,x,y,color)	*/
 
-	(void) puts( "this is senseless o_O" );
-	return X16_ERR_NOT_IMPLEMENTED;
+	/*	write stuff */
+	if ( verbose_flag ) (void) puts( "Writing file ..." );
+	gdImagePng( im, fp_png );
+
+leave_cmd_logo:
+	if ( im != NULL ) gdImageDestroy( im );
+	if ( fp_png != NULL ) fclose( fp_png );
+	return rv;
 }
 
 void print_commands( void ) {
