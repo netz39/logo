@@ -13,13 +13,12 @@ set(X16_SRC
 # direct includes
 include_directories(
 	${CMAKE_CURRENT_BINARY_DIR}
-	${PNG_PNG_INCLUDE_DIR}
 )
 
 add_executable(${PROJECT_NAME} ${X16_SRC})
 
 target_link_libraries(${PROJECT_NAME}
-	${PNG_LIBRARY}
+	${LIBGD2_LIBRARY}
 )
 
 install(TARGETS ${PROJECT_NAME} DESTINATION bin)

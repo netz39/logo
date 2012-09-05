@@ -21,6 +21,7 @@
 #define X16_ERR_PARAM_FORMAT	4
 #define X16_ERR_SYSTEM			5
 #define X16_ERR_RANGE			6
+#define X16_ERR_LIBGD			7
 
 /**	Function pointer type for command evaluation.	*/
 typedef int (*t_cmd_func)( int argc, char **argv );
