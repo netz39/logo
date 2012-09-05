@@ -25,6 +25,11 @@
 
 #include <gd.h>
 
+#define COLOR_1_DEFAULT	255
+#define COLOR_2_DEFAULT	170
+#define COLOR_3_DEFAULT	85
+#define COLOR_4_DEFAULT	0
+
 static char	*prog_name = NULL;
 
 static int debug_flag = false;
@@ -144,30 +149,19 @@ int cmd_help( int argc, char **argv ) {
 int cmd_logo( int aargc, char **aargv ) {
 	gdImagePtr	im = NULL;
 	FILE		*fp_png = NULL;
-	int			rv = X16_ERR_NONE;
+	int			colarg[4], color[4];
+	int			i, j, rv = X16_ERR_NONE;
 
-	/*	evaluate cmd line arguments	*/
-	switch ( aargc - optind ) {
-	case 1:	/*	no args after command	*/
-		/*	TODO	set defaults	*/
-		if ( verbose_flag )
-			(void) puts( "No colors given, using defaults ..." );
-		break;
-	case 5:
-		/*	TODO	evaluate colors given on cmdline	*/
-		(void) fprintf( stderr, "Not implemented yet!\n" );
-		rv = X16_ERR_NOT_IMPLEMENTED;
-		goto leave_cmd_logo;
-		break;
-	default:
-		(void) fprintf( stderr, "Wrong number of parameters!\n" );
-		rv = X16_ERR_PARAM_COUNT;
-		goto leave_cmd_logo;
-		break;
+	/*	debug	*/
+	if ( debug_flag ) {
+		printf( "aargc: %i, optind: %i\n", aargc, optind );
+		for ( i = 0; i < aargc; i++ ) {
+			printf( "aargv[%i]: '%s'\n", i, aargv[i] );
+		}
 	}
 
-	/*	init	*/
-	im = gdImageCreate( 64, 64 );
+	/*	init image before allocating colors	*/
+	im = gdImageCreate( 16, 16 );
 	if ( im == NULL ) {
 		(void) fprintf( stderr, "Error creating image!\n" );
 		rv = X16_ERR_LIBGD;
@@ -176,6 +170,57 @@ int cmd_logo( int aargc, char **aargv ) {
 		if ( debug_flag ) (void) puts( "Created image object ..." );
 	}
 
+	/*	evaluate cmd line arguments	*/
+	switch ( aargc - optind ) {
+	case 1:	/*	no args after command	*/
+		if ( verbose_flag )
+			(void) puts( "No colors given, using defaults ..." );
+		/*	background first	*/
+		color[0] = gdImageColorAllocate( im, COLOR_1_DEFAULT,
+				COLOR_1_DEFAULT, COLOR_1_DEFAULT );
+		color[1] = gdImageColorAllocate( im, COLOR_2_DEFAULT,
+				COLOR_2_DEFAULT, COLOR_2_DEFAULT );
+		color[2] = gdImageColorAllocate( im, COLOR_3_DEFAULT,
+				COLOR_3_DEFAULT, COLOR_3_DEFAULT );
+		color[3] = gdImageColorAllocate( im, COLOR_4_DEFAULT,
+				COLOR_4_DEFAULT, COLOR_4_DEFAULT );
+		break;
+	case 5:
+		for ( i = 0; i < 4; i++ ) {
+			colarg[i] = atoi( aargv[optind+1+i] );
+			color[i] = gdImageColorAllocate( im, colarg[i], colarg[i],
+					colarg[i] );
+		}
+		if ( debug_flag ) {
+			(void) printf( "colarg[i]: %i %i %i %i\n", colarg[0],
+					colarg[1], colarg[2], colarg[3] );
+			(void) printf( "color[i]: %i %i %i %i\n", color[0],
+					color[1], color[2], color[3] );
+		}
+		break;
+	default:
+		(void) fprintf( stderr, "Wrong number of parameters!\n" );
+		rv = X16_ERR_PARAM_COUNT;
+		goto leave_cmd_logo;
+		break;
+	}
+
+	/*	set pixel	*/
+	(void) puts( "Setting pixels ..." );
+	for ( i = 0; i < 16; i++ ) {
+		for ( j = 0; j < 16; j++ ) {
+			/*	vertical cols in background	*/
+			if ( ( i - 2 ) % 3 == 0 ) {
+				gdImageSetPixel( im, i, j, color[1] );
+			}
+			/*	horizontal rows in background	*/
+			if ( ( j - 1 ) % 3 == 0 ) {
+				gdImageSetPixel( im, i, j, color[1] );
+			}
+		}
+	}
+
+	/*	open file	*/
 	fp_png = fopen( X16_LOGO_FILENAME, "wb" );
 	if ( fp_png == NULL ) {
 		(void) fprintf( stderr, "Error opening file %s: %s\n",
@@ -185,9 +230,6 @@ int cmd_logo( int aargc, char **aargv ) {
 	} else {
 		if ( verbose_flag ) (void) puts( "Opened file ..." );
 	}
-
-	/*	set pixel	*/
-	/*	gdImageSetPixel(im,x,y,color)	*/
 
 	/*	write stuff */
 	if ( verbose_flag ) (void) puts( "Writing file ..." );
