@@ -20,10 +20,10 @@
 #include <getopt.h>
 #include <syslog.h>
 
-#include "png.h"
-
 #include "x16.h"
 #include "x16_build.h"
+
+#include <gd.h>
 
 static char	*prog_name = NULL;
 
@@ -142,11 +142,20 @@ int cmd_help( int argc, char **argv ) {
 }
 
 int cmd_logo( int aargc, char **aargv ) {
-	FILE		*fp;
-	png_structp	png_ptr;
-	png_infop	info_ptr;
+	gdImagePtr	im;
+	FILE		*fp_png;
+	int			black, white;
 
-	(void) puts( "to be done ..." );
+	im = gdImageCreate( 32, 32 );
+	black = gdImageColorAllocate( im, 0, 0, 0 );
+	white = gdImageColorAllocate( im, 255, 255, 255 );
+	gdImageLine( im, 0, 0, 31, 31, white );
+	fp_png = fopen( "test.png", "wb" );
+	gdImagePng( im, fp_png );
+	fclose( fp_png );
+	gdImageDestroy( im );
+
+	(void) puts( "this is senseless o_O" );
 	return X16_ERR_NOT_IMPLEMENTED;
 }
 
