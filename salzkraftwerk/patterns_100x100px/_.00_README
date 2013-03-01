@@ -1,0 +1,6 @@
+netz39-TYP.NUM.FORMAT.NAME.AUTHOR.svg
+
+TYP=[logo, flyer]
+NUM=[sequential number, in some cases version char 10a 10b 10c ...]
+FORMAT=[A0, A1, A2, A3, A4, A5, A6, B0, B1, ..., or aspect ratio:  4-3 (4:3), 16-9 (16:9), ...]
+AUTHOR=[sk]
