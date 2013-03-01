@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with an editor by salzkraftwerk. -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="110"
+   height="80"
+   id="space-invader"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="tile-space-invader-single-tiles.02.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="893"
+     id="namedview47"
+     showgrid="false"
+     inkscape:zoom="8.34386"
+     inkscape:cx="56.637877"
+     inkscape:cy="40"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="the-invader" />
+  <defs
+     id="defs4142">
+    <linearGradient
+       id="linearGradient5415"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5417" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata4145">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="Space Invader Pixelwise">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="the-invader"
+     inkscape:label="invader-11-8-tiles"
+     inkscape:groupmode="layer">
+    <!-- Space Invader has tiles for 8x11 Matrix (m x n). -->
+    <!-- Row wise painting of the tiles. -->
+    <!-- Row 1. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="01-03"
+       width="10"
+       height="10"
+       x="20"
+       y="0" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="01-09"
+       width="10"
+       height="10"
+       x="80"
+       y="0" />
+    <!-- Row 2. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="02-04"
+       width="10"
+       height="10"
+       x="30"
+       y="10" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="02-08"
+       width="10"
+       height="10"
+       x="70"
+       y="10" />
+    <!-- Row 3. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-03"
+       width="10"
+       height="10"
+       x="20"
+       y="20" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-04"
+       width="10"
+       height="10"
+       x="30"
+       y="20" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-05"
+       width="10"
+       height="10"
+       x="40"
+       y="20" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-06"
+       width="10"
+       height="10"
+       x="50"
+       y="20" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-07"
+       width="10"
+       height="10"
+       x="60"
+       y="20" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-08"
+       width="10"
+       height="10"
+       x="70"
+       y="20" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="03-09"
+       width="10"
+       height="10"
+       x="80"
+       y="20" />
+    <!-- Row 4. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-02"
+       width="10"
+       height="10"
+       x="10"
+       y="30" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-03"
+       width="10"
+       height="10"
+       x="20"
+       y="30" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-05"
+       width="10"
+       height="10"
+       x="40"
+       y="30" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-06"
+       width="10"
+       height="10"
+       x="50"
+       y="30" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-07"
+       width="10"
+       height="10"
+       x="60"
+       y="30" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-09"
+       width="10"
+       height="10"
+       x="80"
+       y="30" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="04-10"
+       width="10"
+       height="10"
+       x="90"
+       y="30" />
+    <!-- Row 5. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-01"
+       width="10"
+       height="10"
+       x="00"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-02"
+       width="10"
+       height="10"
+       x="10"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-03"
+       width="10"
+       height="10"
+       x="20"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-04"
+       width="10"
+       height="10"
+       x="30"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-05"
+       width="10"
+       height="10"
+       x="40"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-06"
+       width="10"
+       height="10"
+       x="50"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-07"
+       width="10"
+       height="10"
+       x="60"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-08"
+       width="10"
+       height="10"
+       x="70"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-09"
+       width="10"
+       height="10"
+       x="80"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-10"
+       width="10"
+       height="10"
+       x="90"
+       y="40" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="05-11"
+       width="10"
+       height="10"
+       x="100"
+       y="40" />
+    <!-- Row 6. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="06-01"
+       width="10"
+       height="10"
+       x="00"
+       y="50" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="06-03"
+       width="10"
+       height="10"
+       x="20"
+       y="50" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="06-09"
+       width="10"
+       height="10"
+       x="80"
+       y="50" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="06-11"
+       width="10"
+       height="10"
+       x="100"
+       y="50" />
+    <!-- Row 7. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="07-01"
+       width="10"
+       height="10"
+       x="00"
+       y="60" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="07-03"
+       width="10"
+       height="10"
+       x="20"
+       y="60" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="07-09"
+       width="10"
+       height="10"
+       x="80"
+       y="60" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="07-11"
+       width="10"
+       height="10"
+       x="100"
+       y="60" />
+    <!-- Row 8. -->
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="08-04"
+       width="10"
+       height="10"
+       x="30"
+       y="70" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="08-05"
+       width="10"
+       height="10"
+       x="40"
+       y="70" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="08-07"
+       width="10"
+       height="10"
+       x="60"
+       y="70" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+       id="08-08"
+       width="10"
+       height="10"
+       x="70"
+       y="70" />
+    <!-- FINISH. -->
+  </g>
+</svg>
