@@ -1,0 +1,18 @@
+  * document properties
+    * 100 x 160px
+    * new grid: major 10px
+    * snap to grid only when closer than
+  * rectangle in document size, rounded corners
+  * another rectangle 90x60px, no rounded corners, colored, snap
+  * duplicate
+  * select both, object to path, path combine
+  * select outer rectangle, select green path (the other two)
+  * disable grid
+  * long rectangle, 5px high, half opacity
+  * rotate 45° (ctrl key), duplicate, rotate the other to form a cross
+  * join them with path -> union
+  * snap to center of bounding box, duplicate, combine
+  * path difference
+  * select the 8 and path -> break apart
+  * tweak
+  
