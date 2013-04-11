@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="500"
+   height="500"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 449.35718,319.95753 c 0,13.2254 -19.99844,47.42427 -36.06699,67.14819 -16.06855,19.72392 -35.66731,36.56323 -57.58563,49.4781 -21.91832,12.91486 -46.14465,21.89849 -71.18221,26.39614 -25.03757,4.49765 -50.87318,4.50696 -75.911,0.0274 -25.03782,-4.47954 -49.26469,-13.44555 -71.18496,-26.34427 C 115.50612,423.7644 95.903914,406.93976 79.829122,387.22816 63.75433,367.51656 51.21532,344.92835 42.985221,320.85823 34.755122,296.7881 30.838203,271.24869 31.475849,245.8168 c 0.637645,-25.43188 5.82952,-50.74291 15.255524,-74.37035 9.426005,-23.62744 23.081241,-45.55889 40.123659,-64.44015 17.042418,-18.881265 37.463138,-34.702426 60.002278,-46.486428 22.53913,-11.784002 47.18488,-19.52465 72.41573,-22.743815 25.23084,-3.219164 51.03352,-1.915148 75.81424,3.831578 24.78071,5.746727 48.52639,15.933146 69.76996,29.930193 21.24356,13.997048 39.97382,31.797372 55.03374,52.301762 15.05992,20.5044 29.69699,53.17255 29.69699,68.90976"
+     id="path2987"
+     style="fill:none;stroke:#000000;stroke-width:60;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 238.1991,251.69969 259.92167,-0.74905"
+     id="path3753"
+     style="fill:#ffffff;stroke:#000000;stroke-width:70;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <text
+     x="225.04909"
+     y="298.87967"
+     transform="scale(1.0848052,0.92182452)"
+     id="text3755"
+     xml:space="preserve"
+     style="font-size:75.93636322px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:BahamasLight;-inkscape-font-specification:BahamasLight"><tspan
+       x="225.04909"
+       y="298.87967"
+       id="tspan3757"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:BahamasLight;-inkscape-font-specification:BahamasLight">Netz39</tspan></text>
+</svg>
