@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="700"
+   height="500"
+   id="on-off">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="Netz39">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-552.36218)"
+     id="layer1" />
+  <path
+     d="M 222.96693,45.587776 11.632198,256.92253 11.029979,400.53322 224.48336,187.07983 435.08863,401.26269 435.67969,260.31146 z"
+     id="path3010"
+     style="fill:#de6e00;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m 225.73078,225.43196 68.80121,69.96996 -0.55982,144.29114 -65.91263,-77.81868 -75.47671,75.4767 c 0,0 -9.33321,-128.13978 -6.82864,-132.47219 2.50458,-4.33241 79.97659,-79.44693 79.97659,-79.44693 z"
+     id="path3012"
+     style="fill:#6f6f6f;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="m -761.01694,479.66101 -3.38983,-186.44067 161.01695,-174.57627 161.01696,167.79661 -318.64408,8.47458 319.36547,194.48497 0,-199.56973 -321.15544,189.90926 317.04422,10.16949"
+     id="path3772"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  <path
+     d="m 13.183347,473.6333 681.938573,0"
+     id="path3814"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+</svg>
