@@ -10,11 +10,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="293.75742"
-   height="293.75739"
+   width="300"
+   height="300"
    id="svg5512"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="netz39-logo.since_2013-07-11.single.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="netz39-logo.since_2013-07-11.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,17 +24,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1272"
+     inkscape:window-height="960"
      id="namedview12"
      showgrid="false"
-     inkscape:zoom="0.80338406"
-     inkscape:cx="146.87871"
-     inkscape:cy="146.87869"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:zoom="1"
+     inkscape:cx="-20.180167"
+     inkscape:cy="147.84191"
+     inkscape:window-x="2080"
+     inkscape:window-y="26"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg5512" />
+     inkscape:current-layer="svg5512"
+     inkscape:document-units="px"
+     units="px"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     fit-margin-left="5" />
   <defs
      id="defs5514" />
   <metadata
@@ -50,13 +56,14 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-451.17391,-70.82263)"
+     transform="translate(-448.05262,-67.701334)"
      id="g4413">
     <path
-       d="m 534.12054,161.88159 0,10.40612 47.25268,0 -19.71898,19.71898 -8.90796,8.86746 12.59261,0 c 20.11218,0 36.40116,16.32948 36.40116,36.44165 0,20.11218 -16.28898,36.40117 -36.40116,36.40117 -20.11217,0 -36.44165,-16.28899 -36.44165,-36.40117 l -10.40612,0 c 0,25.8585 20.98928,46.8073 46.84777,46.8073 25.85849,0 46.80728,-20.9488 46.80728,-46.8073 0,-21.99252 -15.15229,-40.48031 -35.59135,-45.51157 l 29.96314,-29.92264 z"
+       d="m 534.12054,161.88159 0,10.40612 47.25268,0 c -9.52806,9.54312 -19.06966,19.07261 -28.62694,28.58644 l 12.59261,0 c 20.11218,0 36.40116,16.32948 36.40116,36.44165 0,20.11218 -16.28898,36.40117 -36.40116,36.40117 -20.11217,0 -36.44165,-16.28899 -36.44165,-36.40117 l -10.40612,0 c 0,25.8585 20.98928,46.8073 46.84777,46.8073 25.85849,0 46.80728,-20.9488 46.80728,-46.8073 0,-21.99252 -15.15229,-40.48031 -35.59135,-45.51157 l 29.96314,-29.92264 z"
        id="path4996-4-0-4-8-9-7-2-6-0-9-9-2"
        style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:19.99983215;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsssccssccc" />
     <g
        transform="matrix(-1,0,0,-1,1130.6373,475.18252)"
        id="g4409">
@@ -78,7 +85,8 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     d="M 146.87871,20 C 76.80785,20 20,76.8078 20,146.8787 c 0,70.0708 56.80785,126.87868 126.87871,126.87868 70.07082,0 126.87872,-56.80788 126.87872,-126.87868 C 273.75743,76.8078 216.94953,20 146.87871,20 z m 0,17.3855 c 60.46032,0 109.45402,49.0329 109.45402,109.4932 0,60.4603 -48.9937,109.454 -109.45402,109.454 -60.47222,0.3888 -108.64533,-55.933 -109.49316,-109.454 0,-60.4603 49.03291,-109.4932 109.49322,-109.4932 z"
+     d="m 150,23.121296 c -70.070867,0 -126.878717,56.8078 -126.878717,126.878714 0,70.0708 56.80785,126.87869 126.878717,126.87869 70.07082,0 126.87872,-56.80789 126.87872,-126.87869 C 276.87872,79.929096 220.07082,23.121296 150,23.121296 z m 0,17.3855 c 60.46032,0 109.45402,49.0329 109.45402,109.493214 0,60.4603 -48.9937,109.45399 -109.45402,109.45399 -60.472228,0.3888 -108.645337,-55.93299 -109.493167,-109.45399 0,-60.460314 49.03291,-109.493214 109.493227,-109.493214 z"
      id="path7438-70-0-9-0-2"
-     style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10.41600037;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10.41600037;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     inkscape:connector-curvature="0" />
 </svg>
