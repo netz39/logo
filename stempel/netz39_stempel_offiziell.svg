@@ -10,9 +10,9 @@
    version="1.1"
    x="0px"
    y="0px"
-   width="193.16536"
-   height="78.321434"
-   viewBox="0 0 193.16536 78.321437"
+   width="189.77217"
+   height="81.496063"
+   viewBox="0 0 189.77217 81.496066"
    id="svg2"
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="netz39_stempel_offiziell.svg">
@@ -37,16 +37,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="995"
+     inkscape:window-width="950"
+     inkscape:window-height="666"
      id="namedview31"
      showgrid="false"
-     inkscape:zoom="4.8383459"
-     inkscape:cx="106"
-     inkscape:cy="34.098894"
-     inkscape:window-x="1678"
-     inkscape:window-y="-3"
-     inkscape:window-maximized="1"
+     inkscape:zoom="2"
+     inkscape:cx="94.886086"
+     inkscape:cy="40.748032"
+     inkscape:window-x="1113"
+     inkscape:window-y="45"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      inkscape:document-units="mm"
      units="mm"
@@ -56,33 +56,33 @@
      fit-margin-left="1" />
   <text
      id="text17"
-     x="413.53683"
-     y="-49.9842"
+     x="392.45523"
+     y="-18.203869"
      style="font-size:12px">
     <tspan
        style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Politics Head;-inkscape-font-specification:Politics Head Bold"
        id="tspan19"
        font-size="48"
-       y="-34.539192"
-       x="272.01382" />
+       y="-2.7588608"
+       x="250.93224" />
   </text>
   <text
      id="text21"
-     x="415.38483"
-     y="22.890802"
+     x="394.30322"
+     y="54.671131"
      style="font-size:12px">
     <tspan
        style="font-size:55px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Politics Head;-inkscape-font-specification:Politics Head Bold"
        id="tspan23"
        font-size="55"
-       y="12.890801"
-       x="272.35382" />
+       y="44.671131"
+       x="251.27223" />
   </text>
   <g
-     id="g3068"
-     transform="translate(2.1815537e-6,-2.1673764)">
+     id="g3016"
+     transform="translate(-21.081594,-633.99275)">
     <g
-       transform="matrix(0.28071883,0,0,0.28071883,1.9308535,1.3520459)"
+       transform="matrix(0.29322997,0,0,0.29322997,22.940577,632.98307)"
        id="g3064">
       <path
          style="fill:#000000"
@@ -116,45 +116,46 @@
     </g>
     <text
        sodipodi:linespacing="125%"
-       style="font-size:10.32841873px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Politics Head;-inkscape-font-specification:Politics Head Bold"
-       y="12.292025"
-       x="189.98012"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Politics Head;-inkscape-font-specification:Politics Head Bold"
+       y="647.78894"
+       x="207.75479"
        id="text25">
       <tspan
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Politics Head Bold"
          id="tspan3054"
          sodipodi:role="line"
-         x="189.98012"
-         y="12.292025">Netz39 e.V.</tspan>
+         x="207.75479"
+         y="647.78894">Netz39 e.V.</tspan>
       <tspan
          id="tspan3056"
          sodipodi:role="line"
-         x="189.98012"
-         y="25.202549">Leibnizstraße 32</tspan>
+         x="207.75479"
+         y="661.79028">Leibnizstraße 32</tspan>
       <tspan
          id="tspan3058"
          sodipodi:role="line"
-         x="189.98012"
-         y="38.113071">39104 Magdeburg</tspan>
+         x="207.75479"
+         y="674.29028">39104 Magdeburg</tspan>
       <tspan
          id="tspan3060"
          sodipodi:role="line"
-         x="189.98012"
-         y="51.023594">kontakt@netz39.de</tspan>
+         x="207.75479"
+         y="686.79028">kontakt@netz39.de</tspan>
       <tspan
          id="tspan3062"
          sodipodi:role="line"
-         x="189.98012"
-         y="63.93412">Amtsgericht Stendal</tspan>
+         x="207.75479"
+         y="699.29028">Amtsgericht Stendal</tspan>
       <tspan
          id="tspan3064"
          sodipodi:role="line"
-         x="189.98012"
-         y="76.844643">Registernummer: VR3169</tspan>
+         x="207.75479"
+         y="711.79028">Registernummer: VR3169</tspan>
       <tspan
          id="tspan3066"
          sodipodi:role="line"
-         x="189.98012"
-         y="89.755165"></tspan>
+         x="207.75479"
+         y="724.29028" />
     </text>
   </g>
   <defs
