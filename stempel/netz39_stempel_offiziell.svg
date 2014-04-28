@@ -14,7 +14,7 @@
    height="81.496063"
    viewBox="0 0 189.77217 81.496066"
    id="svg2"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="netz39_stempel_offiziell.svg">
   <metadata
      id="metadata33">
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,16 +37,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="950"
-     inkscape:window-height="666"
+     inkscape:window-width="1280"
+     inkscape:window-height="743"
      id="namedview31"
      showgrid="false"
      inkscape:zoom="2"
      inkscape:cx="94.886086"
      inkscape:cy="40.748032"
-     inkscape:window-x="1113"
-     inkscape:window-y="45"
-     inkscape:window-maximized="0"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:document-units="mm"
      units="mm"
@@ -79,10 +79,9 @@
        x="251.27223" />
   </text>
   <g
-     id="g3016"
-     transform="translate(-21.081594,-633.99275)">
+     id="g3035">
     <g
-       transform="matrix(0.29322997,0,0,0.29322997,22.940577,632.98307)"
+       transform="matrix(0.29322997,0,0,0.29322997,1.858983,-1.00968)"
        id="g3064">
       <path
          style="fill:#000000"
@@ -116,46 +115,46 @@
     </g>
     <text
        sodipodi:linespacing="125%"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;font-family:Politics Head;-inkscape-font-specification:Politics Head Bold"
-       y="647.78894"
-       x="207.75479"
+       style="font-size:10.00000034px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr;text-anchor:end;font-family:Politics Head;-inkscape-font-specification:Politics Head"
+       y="13.79619"
+       x="186.6732"
        id="text25">
       <tspan
-         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Politics Head Bold"
+         style="font-size:16.00000054px;font-weight:normal;-inkscape-font-specification:Politics Head;font-family:Politics Head;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:end;text-align:end;writing-mode:lr;line-height:125%"
          id="tspan3054"
          sodipodi:role="line"
-         x="207.75479"
-         y="647.78894">Netz39 e.V.</tspan>
+         x="186.6732"
+         y="13.79619">Netz39 e.V.</tspan>
       <tspan
          id="tspan3056"
          sodipodi:role="line"
-         x="207.75479"
-         y="661.79028">Leibnizstraße 32</tspan>
+         x="186.6732"
+         y="27.797533">Leibnizstraße 32</tspan>
       <tspan
          id="tspan3058"
          sodipodi:role="line"
-         x="207.75479"
-         y="674.29028">39104 Magdeburg</tspan>
+         x="186.6732"
+         y="40.297535">39104 Magdeburg</tspan>
       <tspan
          id="tspan3060"
          sodipodi:role="line"
-         x="207.75479"
-         y="686.79028">kontakt@netz39.de</tspan>
+         x="186.6732"
+         y="52.797535">kontakt@netz39.de</tspan>
       <tspan
          id="tspan3062"
          sodipodi:role="line"
-         x="207.75479"
-         y="699.29028">Amtsgericht Stendal</tspan>
+         x="186.6732"
+         y="65.297531">Amtsgericht Stendal</tspan>
       <tspan
          id="tspan3064"
          sodipodi:role="line"
-         x="207.75479"
-         y="711.79028">Registernummer: VR3169</tspan>
+         x="186.6732"
+         y="77.797531">Registernummer: VR3169</tspan>
       <tspan
          id="tspan3066"
          sodipodi:role="line"
-         x="207.75479"
-         y="724.29028" />
+         x="186.6732"
+         y="90.297531" />
     </text>
   </g>
   <defs
