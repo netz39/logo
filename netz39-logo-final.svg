@@ -13,8 +13,8 @@
    width="300"
    height="300"
    id="svg5512"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="netz39-logo.since_2013-07-11.svg">
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="netz39-logo-final.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,15 +24,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1272"
-     inkscape:window-height="960"
+     inkscape:window-width="938"
+     inkscape:window-height="799"
      id="namedview12"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="-20.180167"
-     inkscape:cy="147.84191"
-     inkscape:window-x="2080"
-     inkscape:window-y="26"
+     inkscape:cx="150"
+     inkscape:cy="149.81752"
+     inkscape:window-x="1815"
+     inkscape:window-y="12"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg5512"
      inkscape:document-units="px"
@@ -85,8 +85,9 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     d="m 150,23.121296 c -70.070867,0 -126.878717,56.8078 -126.878717,126.878714 0,70.0708 56.80785,126.87869 126.878717,126.87869 70.07082,0 126.87872,-56.80789 126.87872,-126.87869 C 276.87872,79.929096 220.07082,23.121296 150,23.121296 z m 0,17.3855 c 60.46032,0 109.45402,49.0329 109.45402,109.493214 0,60.4603 -48.9937,109.45399 -109.45402,109.45399 -60.472228,0.3888 -108.645337,-55.93299 -109.493167,-109.45399 0,-60.460314 49.03291,-109.493214 109.493227,-109.493214 z"
+     d="m 150,23.121296 c -70.070843,0 -126.878717,56.807857 -126.878717,126.878714 0,70.07086 56.807874,126.87869 126.878717,126.87869 70.07084,0 126.87872,-56.80783 126.87872,-126.87869 C 276.87872,79.929153 220.07084,23.121296 150,23.121296 z M 259.45402,150.00001 C 259.45402,210.46032 210.46659,259.2596 150,259.454 89.533414,259.6484 40.930761,206.99245 40.506833,150.00001 40.082905,93.007572 89.539743,40.506796 150.00003,40.506796 c 60.46029,0 109.45399,49.032907 109.45399,109.493214 z"
      id="path7438-70-0-9-0-2"
      style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:10.41600037;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="zzzzzzzzzz" />
 </svg>
